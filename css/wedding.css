@@ -1,0 +1,91 @@
+body {
+    font-family: 'PT Serif', serif;
+}
+.headline {
+    background-size: cover;
+    text-align: center;
+    padding-top: 25px 0 25% 0;
+    font-family: 'PT Serif', serif;
+}
+.wfimage {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+} 
+.fimg123 {
+    height: 300px;
+    width: 400px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.oservice {
+    text-align: center;
+    color: #d2ab44;
+    font-family: 'PT Serif', serif;
+    justify-content: center;
+}
+.oslist {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.ositem {
+    width: 350px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 50px 0 5px;
+}
+.ositem > img {
+    height: 50px;
+}
+.ostext > h4 {
+    text-align: center;
+}
+.ostext > p {
+    text-align: start;
+
+}
+.godpromo {
+    display: flex;
+    padding: 30px 50px 30px 50px;
+    flex-wrap: wrap;
+}
+.godpromo > img {
+    height: 150px;
+    padding: 0 50px 0 0;
+}
+.centerli {
+    display: flex;
+    justify-content: center;
+}
+.promovideo {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'PT Serif', serif;
+}
+.promotext {
+    max-width: 800px;
+    margin:0 25px 0 25px;
+    font-family: 'PT Serif', serif;
+    min-width: 300px;
+}
+.promotext > h1 {
+    text-align: center;
+    
+} 
+.promovideo > video {
+    margin-right: 25px;
+}
+.spacebot {
+    margin:0 10px 0 10px;
+}
+.bcenter {
+    text-align: center;
+    font-family: 'PT Serif', serif;
+}
+@media only screen and (max-width:500px) {
+    .wfimage > img{
+        width: 100%;
+    }
+}

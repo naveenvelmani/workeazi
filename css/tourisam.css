@@ -1,0 +1,40 @@
+.touriestbody {
+    padding:0% 10% 0% 10% ;
+}
+
+.tourspan {
+    color:   #a794f2 ;
+    font-family: 'PT Serif', serif;
+}
+.snindia {
+    text-align: start;
+}
+.tourcontaining {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.toiringitem {
+    max-width: 260px;
+    
+}
+.toiringitem >a>img  {
+    height: 260px;
+    width: 260px;
+
+}
+.toiringitem >a>h6 {
+    color: black;
+    text-align: start;
+    padding: 5px 0px 0px 5px;
+    font-size: 18px;
+}
+.toiringitem >a>p{
+    color: black;
+    text-align: start;
+    padding: 0px 0px 10px 5px;
+}
+h1 {
+    font-family: 'PT Serif', serif;
+
+}

@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.web_body{
+    padding: 0% 5% 0% 5%;
+    overflow: hidden;
+}
+.navimg {
+    height: 50px;
+}
+.logo {
+    height: 50px;
+}
+.importan {
+    color: #a794f2;
+}
+.botam_slid {
+    background-color: rgb(50, 50, 50);
+}
+.cantani_botam {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.dropslide_font {
+    text-align: center;
+    color: rgb(65, 64, 64);
+    font-size: 14px;
+    font-family: 'PT Serif', serif;
+}
+.item_botam {
+    color: #ffffff;
+    font-family: 'PT Serif', serif;
+}
+.small_cet {
+    font-size: 15px;
+}
+.botam_tital {
+    color: #a794f2;
+    
+}
+.botam_image {
+    height: 50px;
+    width: 50px;
+}
+.clink {
+    color: #ffffff;
+    text-decoration: none;
+}
